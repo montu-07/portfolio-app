@@ -398,7 +398,6 @@ export default function App() {
             <Typography variant="body2" color="text.secondary">© {new Date().getFullYear()} Montu Prajapati • Built with ❤️ using React & MUI</Typography>
           </Container>
         </Box>
-
         <Snackbar open={snack.open} autoHideDuration={4000} onClose={handleCloseSnack} anchorOrigin={{ vertical: "bottom", horizontal: "center" }}>
           <Alert onClose={handleCloseSnack} severity={snack.severity} sx={{ width: "100%" }}>{snack.message}</Alert>
         </Snackbar>
